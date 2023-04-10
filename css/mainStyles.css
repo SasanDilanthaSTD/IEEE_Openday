@@ -227,6 +227,7 @@ body{
 }
 
 .common__heder{
+    margin-top: 2vh;
     background: #ff8177;
     background-image: linear-gradient(to right, #ff8177 0%, #ff817a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
     background-size: 100%;
@@ -290,6 +291,38 @@ body{
     transform: scale(1.075);
     transition: 0.2s ease-in;
     cursor: pointer;
+}
+
+/* time count */
+.time__count{
+    margin-top: 1vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 50vw;
+    margin-top: -2vh;
+    background-image: linear-gradient(to left, #ff77b7 0%, #5900ff 100%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fll-color: transparent;
+}
+
+.day,
+.hour,
+.minute,
+.second{
+    font-size: 2rem;
 }
 
 
