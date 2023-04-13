@@ -38,3 +38,34 @@ const time_count = () => {
 }
 
 setInterval(time_count, 1000);
+
+
+
+// import json animation
+/* 1st content */
+insertSvg('mainAni','/js/ani-3.json','main animation');
+/* 2nd content */
+insertSvg('animation','/js/ani-1.json','walk animation');
+/* mail */
+insertSvg('mail','/js/email-icon.json','mail');
+/* linkedin */
+insertSvg('linkedin','/js/linkedin-icon.json','linkedin');
+/* facebook */
+insertSvg('facebook','/js/facebook-icon.json','facebook');
+/* instergram */
+insertSvg('instergream','/js/instagram-icon.json','instergram');
+/* twiter */
+insertSvg('twitter','/js/twitter-icon.json','twitter-icon');
+
+
+// create animation function
+function insertSvg(idName, imgPath, imgTopic){
+    let animation   = bodymovin.loadAnimation({
+        container: document.getElementById(idName),
+        path:imgPath,
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        name: imgTopic
+    });
+}

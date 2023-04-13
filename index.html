@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="css/mainStyles.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <!-- NAVIGATION BAR -->
@@ -46,49 +47,57 @@
     <div class="main">
         <div class="main__container">
             <div class="main__content">
-                <h1>IEEE OPENDAY</h1>
-                <h2>2023</h2>
-                <p>
-                    For the betterment of evolving technological world explorers
-                </p>
-                <button class="main__btn">
-                    <a href="#">Join With Us</a>
-                </button>
+                <div>
+                    <h1>IEEE OPENDAY</h1>
+                    <h2>2023</h2>
+                    <p>
+                        For the betterment of evolving technological world explorers.
+                    </p>
+                    <button class="main__btn">
+                        <a href="#">Join With Us</a>
+                    </button>
+                </div>
             </div>
-            <div class="main__img--container">
-                <img src="Images/1.svg" alt="" id="main__img">
-            </div>
+            <div class="main__img--container" id="mainAni"><!-- <img src="Images/1.svg" alt="" id="main__img"> --></div>
         </div>
     </div>
     
     <!-- services -->
-    <div class="services">
+    <div class="services" id="services">
         <h1 class="common__heder">Who We Are</h1>
-        <!-- Time count dound -->
-        <div class="time__count">
-            <!-- <div>
-                <h1 class="common__heder">Saty Tude</h1>
-            </div> -->
-            <div class="countdown">
-                <div class="containeer__day">
-                    <h3 class="day">Time</h3>
-                    <h3>Day</h3>
-                </div>
-                <div class="containeer__hour">
-                    <h3 class="hour">Time</h3>
-                    <h3>Hour</h3>
-                </div>
-                <div class="containeer__minute">
-                    <h3 class="minute">Time</h3>
-                    <h3>Minute</h3>
-                </div>
-                <div class="containeer__second">
-                    <h3 class="second">Time</h3>
-                    <h3>Second</h3>
+        <div class="services__containeer">
+            <div class="team__box">
+                <div class="box">
+                    <div class="elements name">
+                        <p>"Discover the possibilities of tomorrow's technology today! Don't miss the IEEE Open Day 2023, happening in just"</p>
+                    </div>
+                    <div class="elements Box">
+                        <!-- Time count dound -->
+                        <div class="time__count elements content">
+                            <div class="countdown">
+                                <div class="containeer__day">
+                                    <h3 class="day">Time</h3>
+                                    <h3>Day</h3>
+                                </div>
+                                <div class="containeer__hour">
+                                    <h3 class="hour">Time</h3>
+                                    <h3>Hour</h3>
+                                </div>
+                                <div class="containeer__minute">
+                                    <h3 class="minute">Time</h3>
+                                    <h3>Minute</h3>
+                                </div>
+                                <div class="containeer__second">
+                                    <h3 class="second">Time</h3>
+                                    <h3>Second</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elements animation" id="animation"></div>
+                    <div class="card"></div>
                 </div>
             </div>
-        </div>
-        <div class="services__containeer">
             <div class="services__card " id="about">
                 <h2>About and Timeline</h2>
                 <p>
@@ -109,9 +118,77 @@
             </div>
         </div>
     </div>
+    
+    <!-- registation section -->
+    <div class="registation">
+        <h1 class="common__heder">Join With Us</h1>
+        <div class="registation__container">
+            <div class="registation__contactinfo">
+                <h2>Contact</h2>
+                <ul class="info">
+                    <a href=""><li><span id="mail"></span><span>E mail : <br><small>ieeesbuwu@gmail.com</small> </span></li></a>
+                    <a href="https://www.linkedin.com/company/uwuieee/" target="_blank"><li><span id="linkedin"></span><span>LinkedIn</span></li></a>
+                    <a href="https://www.facebook.com/uwuieee?mibextid=ZbWKwL" target="_blank"><li><span id="facebook"></span><span>Facebook</span></li></a>
+                    <a href="https://instagram.com/ieee_uwu?igshid=YmMyMTA2M2Y=" target="_blank"><li><span id="instergream"></span><span>Instergram</span></li></a>
+                    <!-- <a href="https://twitter.com/ieeesb_uwu" target="_blank"><li><span id="twitter"></span><span>Twitter</span></li></a> -->
+                </ul>
+            </div>
+            <div class="refistation__form">
+                <h2>Registation</h2>
+                <div class="form">
+                    <form action="" method="post">
+                        <div class="input__set-1">
+                            <div class="input">
+                                <span>First Name</span>
+                                <input type="text" name="" id="" required>
+                            </div>
+                            <div class="input">
+                                <span>Last Name</span>
+                                <input type="text" name="" id="" required>
+                            </div>
+                            <div class="input">
+                                <span>Email Address</span>
+                                <input type="email" name="" id="" required>
+                            </div>
+                        </div>
+                        <div class="input__set-2">
+                            <div class="input">
+                                <span>Year</span>
+                                <div class="item">
+                                    <input type="radio" name="1" id="1" value="1st year">
+                                    <span>1<sup>st</sup> Year</span>
+                                    <input type="radio" name="2" id="2" value="2st year">
+                                    <span>2<sup>nd</sup> Year</span>
+                                    <input type="radio" name="3" id="3" value="3st year">
+                                    <span>3<sup>rd</sup> Year</span>
+                                </div>
+                            </div>
+                            <div class="input phone">
+                                <span>Mobile Number </span>
+                                <input type="text" name="" id="" required>
+                            </div>
+                        </div>
+                        <div class="input btn">
+                            <input type="submit" name="" id="" value="Join" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
 
+    </footer>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.11.0/lottie.min.js" integrity="sha512-XCthc/WzPfa+oa49Z3TI6MUK/zlqd67KwyRL9/R19z6uMqBNuv8iEnJ8FWHUFAjC6srr8w3FMZA91Tfn60T/9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+        });
+    </script>
 </body>
 </html>

@@ -119,14 +119,14 @@ body.commitee{
     border-top: 1px solid rgba(255, 255, 255, 0.75);
     border-left: 1px solid rgba(255, 255, 255, 0.75);
     border-radius: 8px;
-    opacity: 0;
+    /* opacity: 0; */
     transition: 0.5s;
 }
 
-.box:hover .elements.imgBox img{
+/* .box:hover .elements.imgBox img{
     opacity: 1;
 }
-
+ */
 .elements.name{
     top: 35vh;
     left: initial;
