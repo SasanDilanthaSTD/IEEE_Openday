@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="css/mainStyles.css">
     <link rel="stylesheet" href="/css/style.css">
@@ -37,7 +38,7 @@
                     <a href="/committee.html" class="navbar__links">COMMITEES</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/get_membership.html" class="button">JOIN WITH US</a>
+                    <a href="#registation" class="button">JOIN WITH US</a>
                 </li>
             </ul>
         </div>
@@ -54,7 +55,7 @@
                         For the betterment of evolving technological world explorers.
                     </p>
                     <button class="main__btn">
-                        <a href="#">Join With Us</a>
+                        <a href="#registation">Join With Us</a>
                     </button>
                 </div>
             </div>
@@ -66,6 +67,15 @@
     <div class="services" id="services">
         <h1 class="common__heder">Who We Are</h1>
         <div class="services__containeer">
+            <div class="services__card" id="Commitees">
+                <h2>Our Commitees - 2023</h2>
+                <p>
+                    We are delighted to introduce a new cohort of IEEE UWU SB Executive Committee  and The awe - inspiring Organizing Committee  of  IEEE Open Day 2023.
+                </p>
+                <div class="services__btn">
+                    <button id="btnCommitees">See more...</button>
+                </div>
+            </div>
             <div class="team__box">
                 <div class="box">
                     <div class="elements name">
@@ -99,34 +109,25 @@
                 </div>
             </div>
             <div class="services__card " id="about">
-                <h2>About and Timeline</h2>
+                <h2>About</h2>
                 <p>
                     Enhance your awareness of the world's largest technical professional organization...
                 </p>
                 <div class="services__btn">
-                    <button>See more...</button>
+                    <button id="btnAbout">See more...</button>
                 </div>
-            </div>
-            <div class="services__card" id="Commitees">
-                <h2>Our Commitees - 2023</h2>
-                <p>
-                    We are delighted to introduce a new cohort of IEEE UWU SB Executive Committee  and The awe - inspiring Organizing Committee  of  IEEE Open Day 2023.
-                </p>
-                <div class="services__btn">
-                    <button id="btnCommitees">See more...</button>
-                </div>
+
             </div>
         </div>
     </div>
     
     <!-- registation section -->
-    <div class="registation">
+    <div class="registation" id="registation">
         <h1 class="common__heder">Join With Us</h1>
         <div class="registation__container">
             <div class="registation__contactinfo">
-                <h2>Contact</h2>
+                <h2>Follow</h2>
                 <ul class="info">
-                    <a href=""><li><span id="mail"></span><span>E mail : <br><small>ieeesbuwu@gmail.com</small> </span></li></a>
                     <a href="https://www.linkedin.com/company/uwuieee/" target="_blank"><li><span id="linkedin"></span><span>LinkedIn</span></li></a>
                     <a href="https://www.facebook.com/uwuieee?mibextid=ZbWKwL" target="_blank"><li><span id="facebook"></span><span>Facebook</span></li></a>
                     <a href="https://instagram.com/ieee_uwu?igshid=YmMyMTA2M2Y=" target="_blank"><li><span id="instergream"></span><span>Instergram</span></li></a>
@@ -136,36 +137,37 @@
             <div class="refistation__form">
                 <h2>Registation</h2>
                 <div class="form">
-                    <form action="" method="post">
+                    <script type="text/javascript">let submitted = false</script>
+                    <iframe name="confromSubmitted" id="confromSubmitted" style="display: none;" onload="if(submitted){window.location='get_membership.html';}" frameborder="0"></iframe>
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLScQa8pA6rybnxC5u9QESf2Y2UagdJjN9nnOfvUBytkKs46a4A/formResponse" method="post" target="confromSubmitted" onsubmit="submitted=true">
                         <div class="input__set-1">
                             <div class="input">
                                 <span>First Name</span>
-                                <input type="text" name="" id="" required>
+                                <input type="text" name="entry.144202702" id="" required>
                             </div>
                             <div class="input">
                                 <span>Last Name</span>
-                                <input type="text" name="" id="" required>
+                                <input type="text" name="entry.1585284881" id="" required>
                             </div>
                             <div class="input">
                                 <span>Email Address</span>
-                                <input type="email" name="" id="" required>
+                                <input type="email" name="entry.345930780" id="" required>
                             </div>
                         </div>
                         <div class="input__set-2">
                             <div class="input">
                                 <span>Year</span>
                                 <div class="item">
-                                    <input type="radio" name="1" id="1" value="1st year">
-                                    <span>1<sup>st</sup> Year</span>
-                                    <input type="radio" name="2" id="2" value="2st year">
-                                    <span>2<sup>nd</sup> Year</span>
-                                    <input type="radio" name="3" id="3" value="3st year">
-                                    <span>3<sup>rd</sup> Year</span>
+                                    <select name="entry.63151817" id="">
+                                        <option value="1st Year">1<sup>st</sub> Year</option>
+                                        <option value="2nd Year">2<sup>nd</sub> Year</option>
+                                        <option value="3rd Year">3<sup>rd</sub> Year</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="input phone">
                                 <span>Mobile Number </span>
-                                <input type="text" name="" id="" required>
+                                <input type="text" name="entry.2128505452" id="" required>
                             </div>
                         </div>
                         <div class="input btn">
@@ -176,8 +178,43 @@
             </div>
         </div>
     </div>
-    <footer>
 
+    <!-- footer section -->
+    <footer>
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <div class="logo__openday">
+                        <img src="/Images/logo-2023.png" alt="">
+                    </div>
+                    <div class="logo__ieee">
+                        <h3>Presented by</h3>
+                        <div class="ieee">
+                            <img src="/Images/ieee_sb_logo.png" alt="UWU Student Branch">
+                        </div>
+                        <p>IEEE Uva Wellassa University Student Branch</p>
+                    </div>
+                </div>
+                <div class="footer__contact">
+                    <h3>Contact Us</h3>
+                    <div class="mobile">
+                        <i class="material-icons mobile">person_outline</i>
+                        <div class="number">
+                            <span>Ovidu (Chair : IEEE SB) <br><small>+94 702500806</small> </span>
+                            <span>Kavindra (vice-Chair : IEEE SB) <br><small>+94 774743603</small> </span>
+                        </div>
+                        <div class="mail">
+                            <i class="material-icons">mail</i>
+                            <span>ieeesbuwu@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__credit">
+                <hr>
+                <p>© IEE OPENDAY 2023 - All Rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.11.0/lottie.min.js" integrity="sha512-XCthc/WzPfa+oa49Z3TI6MUK/zlqd67KwyRL9/R19z6uMqBNuv8iEnJ8FWHUFAjC6srr8w3FMZA91Tfn60T/9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

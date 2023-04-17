@@ -2,6 +2,7 @@
 const menu = document.querySelector('#mobile-menu');
 const menu_links = document.querySelector('.navbar__menu');
 const commitee = document.querySelector('#btnCommitees');
+const about = document.querySelector('#btnAbout');
 
 // action of menue icon
 menu.addEventListener('click', function(){
@@ -12,6 +13,11 @@ menu.addEventListener('click', function(){
 // redirect commitee page
 commitee.addEventListener('click', () =>{
     window.location.href = '../committee.html';
+});
+
+//redirect about page
+about.addEventListener('click', () =>{
+    window.location.href = '../about.html';
 });
 
 // time count
@@ -56,6 +62,9 @@ insertSvg('facebook','/js/facebook-icon.json','facebook');
 insertSvg('instergream','/js/instagram-icon.json','instergram');
 /* twiter */
 insertSvg('twitter','/js/twitter-icon.json','twitter-icon');
+/* Success */
+
+insertSvg('setimg','/js/successfully.json','success');
 
 
 // create animation function
