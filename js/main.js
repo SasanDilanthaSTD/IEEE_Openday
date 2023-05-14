@@ -22,7 +22,7 @@ about.addEventListener('click', () =>{
 
 // time count
 const time_count = () => {
-    const count = new Date("April 20, 2023 08:00:00").getTime();
+    const count = new Date("May 28, 2023 08:00:00").getTime();
     const now = new Date().getTime();
     const gap = count - now;
 
