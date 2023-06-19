@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THANK YOU</title>
+    <link rel="stylesheet" href="css/mainStyles.css">
+    <link rel="stylesheet" href="css/commitee.css">
+    <link rel="stylesheet" href="/css/style_about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+    <style>
+        .elements{
+            backdrop-filter: blur(0px);
+            border: none;
+            box-shadow: none;
+        }
+
+        .imgSuccess{
+            width: 10vw;
+            height: 15vh;
+            top: 8vh;
+            left: 25vw;
+        }
+
+        .elements.content.thank__content{
+            top: 28vh;
+            right: 10vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            min-height: 4vh;
+        }
+
+        .elements.content p{
+            position: relative;
+            /* color: #ffffff; */
+            font-size: 2rem;
+            text-align: center;
+            background-image: linear-gradient(to right, #ff00c8 0%, #2ad4fb 100%);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fll-color: transparent;
+            opacity: 1;
+        }
+
+        #btnWhatapp{
+            top: 70vh;
+            right: 45vw;
+            font-size: 1rem;
+            padding: 14px 32px;
+            color: #ffffff;
+            cursor: pointer;
+            position: absolute;
+            transform: translateZ(1800px);
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateZ(40px);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-top: 1px solid rgba(255, 255, 255, 0.6);
+            border-left: 1px solid rgba(255, 255, 255, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 25px rgba(0, 0, 0, 0.05);
+            transition: all 0.35s;
+            outline: none;
+        }
+
+        #btnWhatapp:hover{
+            background-image: linear-gradient(to top, #ff0844 0%, #f8684f 100%);
+        }
+    </style>
+</head>
+
+<body class="commitee__all">
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#" id="navbar__logo">
+                <img src="Images/logo-2023.png" alt="logo-2023" class="navbar__logo">
+            </a>
+        </div>
+        <div class="navbar__container">
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__btn">
+                    <a href="/index.html" class="button">HOME</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="commitee__main">
+        <h1 class="common__heder"> Thank You !</h1>
+        <!-- Program Team -->
+        <div class="team about">
+            <div class="team__box about__box">
+                <div class="box">
+                    <div class="elements content thank__content">
+                        <p>
+                            <small style="font-size: 1.2rem;">Your information is safe with us.</small><br>
+                            You will be able to Obtain your IEEE Student Branch membership ID promptly and conveniently.
+                        </p>
+                    </div>
+                    <div class="elements imgSuccess" id="imgSuccess"></div>
+                    <div class="card about__card"></div>
+                </div>
+                <div class="btnWhatapp">
+                    <button id="btnWhatapp"> HOME </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer__container">
+            
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <div class="logo__openday">
+                        <img src="/Images/white logo.png" alt="">
+                    </div>
+                    <div class="logo__ieee">
+                        <h3>Presented by</h3>
+                        <div class="ieee">
+                            <img src="/Images/ieee_sb_logo.png" alt="UWU Student Branch">
+                        </div>
+                        <p>IEEE Uva Wellassa University Student Branch</p>
+                    </div>
+                </div>
+                <div class="footer__contact">
+                    <h3>Contact Us</h3>
+                    <div class="mobile">
+                        <i class="material-icons mobile">person_outline</i>
+                        <div class="number">
+                            <span>Ovidu (Chair : IEEE SB) <br><small>+94 702500806</small> </span>
+                            <span>Milani (Project-Chair : IEEE SB) <br><small>+94 769847175</small> </span>
+                        </div>
+                        <div class="mail">
+                            <i class="material-icons">mail</i>
+                            <span>ieeesbuwu@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__credit">
+                <hr>
+                <p>© IEE OPENDAY 2023 - All Rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.11.0/lottie.min.js" integrity="sha512-XCthc/WzPfa+oa49Z3TI6MUK/zlqd67KwyRL9/R19z6uMqBNuv8iEnJ8FWHUFAjC6srr8w3FMZA91Tfn60T/9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/commitee.js"></script>
+    <script type="text/javascript">
+        let animation   = bodymovin.loadAnimation({
+            container: document.getElementById('imgSuccess'),
+            path:'/js/successfully.json',
+            render: 'svg',
+            loop: true,
+            autoplay: true,
+            name: 'success'
+        });
+
+        //redirect whatappgroup
+        const Whatapp = document.querySelector('#btnWhatapp');
+
+        Whatapp.addEventListener('click', () =>{
+            window.location.href = '../index.html';
+        });
+    </script>
+</body>
+</html>
