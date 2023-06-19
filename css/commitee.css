@@ -133,7 +133,7 @@ body.commitee__all{
     right: 0.3vw;
     width: 100%;
     padding: 10px;
-    text-align: right;
+    text-align: center;
     transform: translateZ(120px);
     background: transparent;
     backdrop-filter: blur(0px);

@@ -1,3 +1,4 @@
+//alert("conected js");
 //create variable
 const menu = document.querySelector('#mobile-menu');
 const menu_links = document.querySelector('.navbar__menu');
@@ -10,10 +11,11 @@ menu.addEventListener('click', function(){
     menu_links.classList.toggle('active');
 });
 
-// redirect commitee page
+// redirect committee page
 commitee.addEventListener('click', () =>{
-    window.location.href = '../committee.html';
+    window.location.href = '/committee.html';
 });
+
 
 //redirect about page
 about.addEventListener('click', () =>{
@@ -22,7 +24,7 @@ about.addEventListener('click', () =>{
 
 // time count
 const time_count = () => {
-    const count = new Date("May 28, 2023 08:00:00").getTime();
+    const count = new Date("June 25, 2023 08:00:00").getTime();
     const now = new Date().getTime();
     const gap = count - now;
 
