@@ -1,119 +1,133 @@
-.team__box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5vw;
+.team__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5vw;
 }
 
-.box{
-    position: relative;
-    border-radius: 20px;
-    transform-style: preserve-3d;
+.box {
+  position: relative;
+  border-radius: 20px;
+  transform-style: preserve-3d;
 }
 
-.box .card{
-    position: relative;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 1rem;
-    height: 525px;
-    width: 30vw;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(255, 255, 255, 0.6);
-    border-left: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 10px;
-    box-shadow: 0 25px rgba(0, 0, 0, 0.05);
-    transform-style: preserve-3d;
+.box .card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 1rem;
+  height: 525px;
+  width: 30vw;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 25px rgba(0, 0, 0, 0.05);
+  transform-style: preserve-3d;
 }
 
-.elements{
-    position: absolute;
-    left: -30px;
-    width: 80px;
-    height: 80px;
-    background: rgba(255, 255, 255, 0.1);
-    transform: translateZ(40px);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(255, 255, 255, 0.6);
-    border-left: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 10px;
-    box-shadow: 0 25px rgba(0, 0, 0, 0.05);
+.elements {
+  position: absolute;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateZ(40px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 25px rgba(0, 0, 0, 0.05);
 }
 
-.elements.Box{
-    top: 15rem;
-    width: 25VW;
-    height: 10vh;
-    margin-left: 6rem;
-    transform: translateZ(60px);
+.elements.Box {
+  top: 15rem;
+  width: 25vw;
+  height: 10vh;
+  margin-left: 6rem;
+  transform: translateZ(60px);
 }
 
-.elements.content{
-    left: initial;
-    bottom: 0;
-    right: 20px;
-    width: 85%;
-    min-height: 4vh;
-    padding: 10px;
-    transform: translateZ(100px);
-    background: transparent;
-    backdrop-filter: blur(0px);
-    border: none;
-    box-shadow: none;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.elements.content {
+  left: initial;
+  bottom: 0;
+  right: 20px;
+  width: 85%;
+  min-height: 4vh;
+  padding: 10px;
+  transform: translateZ(100px);
+  background: transparent;
+  backdrop-filter: blur(0px);
+  border: none;
+  box-shadow: none;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.elements.name{
-    top: 2vh;
-    left: initial;
-    right: 8vw;
-    width: 20vw;
-    padding: 10px;
-    font-size: 1.5rem;
-    text-align: left;
-    transform: translateZ(120px);
-    background: transparent;
-    backdrop-filter: blur(0px);
-    border: none;
-    box-shadow: none;
-    color: #ffffff;
-    opacity: 0;
-    transition: 0.5s;
-    transition-delay: 0.25s;
+.elements.name {
+  top: 2vh;
+  left: initial;
+  right: 8vw;
+  width: 20vw;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: left;
+  transform: translateZ(120px);
+  background: transparent;
+  backdrop-filter: blur(0px);
+  border: none;
+  box-shadow: none;
+  color: #ffffff;
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0.25s;
 }
 
-.box:hover .elements.name{
-    top: 8vh;
-    opacity: 1;
+.box:hover .elements.name {
+  top: 8vh;
+  opacity: 1;
 }
 
-.elements.animation{
-    left: initial;
-    bottom: 0;
-    right: 0;
-    width: 85%;
-    min-height: 25vh;
-    padding: 10px;
-    transform: translateZ(100px);
-    background: transparent;
-    backdrop-filter: blur(0px);
-    border: none;
-    box-shadow: none;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    opacity: 0;
-    transition: 1s;
-    transition-delay: 0.25s;
+.elements.animation {
+  left: initial;
+  bottom: 0;
+  right: 0;
+  width: 85%;
+  min-height: 25vh;
+  padding: 10px;
+  transform: translateZ(100px);
+  background: transparent;
+  backdrop-filter: blur(0px);
+  border: none;
+  box-shadow: none;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0;
+  transition: 1s;
+  transition-delay: 0.25s;
 }
 
-.box:hover .elements.animation{
-    right: 5vw;
-    opacity: 1;
+.box:hover .elements.animation {
+  right: 5vw;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .box .card {
+    width: 90vw;
+  }
+  .elements.name {
+    width: 80%;
+  }
+
+  .elements.Box {
+    width: 90vw;
+    margin-left: 10vw;
+  }
 }
